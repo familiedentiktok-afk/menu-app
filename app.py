@@ -1,4 +1,4 @@
-pip install streamlit
+
 import streamlit as st
 import pandas as pd
 
@@ -49,4 +49,5 @@ st.markdown("---")
 if st.button("Подсчитать продукты"):
     st.warning("Функция подсчета продуктов пока не реализована.")
     st.write("Здесь будет логика, которая проходит по вашему заказу и составляет список покупок.")
+
 
